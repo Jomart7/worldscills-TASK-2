@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #6C6C6C;
+    font-size: 14px;
+}
+
+.collection{
+    color: #AC1313;
+}
+
+.all-cart{
+    display: flex;
+    gap: 5px;
+}
+
+.cart{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.collection-page{
+    min-height: 100vh;
+    width: 100%;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.collection-os{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #D77474;
+}
+
+.collection-main-text{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.collection-tt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.coll-img{
+    height: 470px;
+    width: 340px;
+}
+
+.coll-good{
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+.coll-price{
+    font-style: 18px;
+}
+
+.coll{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.collection2,
+.collection1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.foot2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.foo{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.spn{
+    color: black;
+}
+
+.foot-word{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.foot2-text{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+#foot-icons{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.foot3{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf31;
+
+
+}
+
+.foot-social{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:960px) {
+    .foo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .collection1,
+    .collection2,
+    .coll{
+        flex-wrap: wrap;
+    }
+}
